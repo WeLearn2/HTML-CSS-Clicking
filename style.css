@@ -1,0 +1,70 @@
+/* Styling headings */
+h1, h2, h3, h4, h5, h6 {
+    color: green;
+    font-family: "Garamond", serif;
+}
+
+/* Main Container */
+.apple-container {
+    display: flex;
+    flex-direction: row;
+}
+
+/* Quote */
+cite {
+    font-weight: bold;
+    display: block;
+}
+
+/* Images or Pictures */
+img {
+    border: none;
+    width: 250px;
+}
+
+/* Middle section */
+.about {
+    border: 2px outset green;
+    background: #99cc99;
+}
+
+/* Types of apple */
+.about ul li:nth-child(even) {
+    color: #fff;
+    font-size: 120%;
+}
+
+.about ul li {
+    position: relative;
+}
+
+.about ul li:active .show-details {
+    display: block;
+    color: #000;
+}
+
+.show-details {
+    position: absolute;
+    left: 500px;
+    top: -110px;
+    display: none;
+    width: 500px;
+}
+
+/* Other apples */
+ol {
+    list-style-type: none;
+}
+
+ol li {
+    font-weight: bold;
+}
+
+ol li ul {
+    font-weight: normal;
+}
+
+/* All sections styling */
+section {
+    padding: 20px;
+}
